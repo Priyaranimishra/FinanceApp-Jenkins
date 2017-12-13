@@ -1,0 +1,18 @@
+{
+    "family": "financetask",
+    "containerDefinitions": [
+        {
+            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "name": "fincecontainer",
+            "cpu": 10,
+            "memory": 500,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 8070,
+                    "hostPort": 8080
+                }
+            ]
+        }
+    ]
+}

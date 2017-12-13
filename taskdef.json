@@ -2,7 +2,7 @@
     "family": "financetaskdemo",
     "containerDefinitions": [
         {
-            "image": %REPOSITORY_URI%:latest
+            "image": "716523076871.dkr.ecr.us-east-1.amazonaws.com/fianncerepo-demo:latest",
             "name": "demoappcontainer",
             "cpu": 0,
             "memory": 500,
@@ -20,7 +20,7 @@
     "family": "mysqltaskdemo",
     "containerDefinitions": [
         {
-            "image": "716523076871.dkr.ecr.us-east-1.amazonaws.com/mysql-demo:latest"
+            "image": "716523076871.dkr.ecr.us-east-1.amazonaws.com/mysql-demo:latest",
             "name": "demomysqlcontainer",
             "cpu": 0,
             "memory": 500,

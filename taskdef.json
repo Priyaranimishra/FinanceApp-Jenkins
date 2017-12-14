@@ -16,21 +16,3 @@
         }
     ]
 }
-{
-    "family": "mysqltaskdemo",
-    "containerDefinitions": [
-        {
-            "image": "716523076871.dkr.ecr.us-east-1.amazonaws.com/mysql-demo:latest",
-            "name": "demomysqlcontainer",
-            "cpu": 0,
-            "memory": 500,
-            "essential": true,
-            "portMappings": [
-                {
-                    "containerPort": 3306,
-                    "hostPort": 3306
-                }
-            ]
-        }
-    ]
-}

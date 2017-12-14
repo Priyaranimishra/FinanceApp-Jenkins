@@ -2,7 +2,7 @@
     "family": "financetask",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%"",
+            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
             "name": "fincecontainer",
             "cpu": 0,
             "memory": 500,

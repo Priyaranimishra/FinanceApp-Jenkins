@@ -30,12 +30,6 @@
                     "hostPort": 3306
                  }
              ],
-             "environment": [
-                {
-                "name": "MYSQL_ROOT_PASSWORD",
-                "value": "admin"
-                }
-             ],
              "mountPoints": [
                 {
                     "containerPath": "/var/lib/mysql/",

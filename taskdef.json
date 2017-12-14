@@ -1,5 +1,5 @@
 {
-    "family": "financetask",
+    "family": "financetaskdef",
     "containerDefinitions":[
           {
             "name": "app-container",

@@ -1,9 +1,9 @@
 {
-    "family": "financetaskdemo",
+    "family": "financetask",
     "containerDefinitions": [
         {
-            "image": "716523076871.dkr.ecr.us-east-1.amazonaws.com/fianncerepo-demo:latest",
-            "name": "demoappcontainer",
+            "image": "%REPOSITORY_URI%:latest",
+            "name": "fincecontainer",
             "cpu": 0,
             "memory": 500,
             "essential": true,
